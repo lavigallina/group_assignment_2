@@ -89,7 +89,8 @@ if st.button("Show me a chart"):
             st.subheader("Data Behind Chart B")
             st.dataframe(top_airports)
 
-# Additional widgets ideas (new & nice):
+# Additional widgets ideas:
 st.sidebar.header("Additional Options")
 st.sidebar.write("Customize your view:")
 st.sidebar.slider("Adjust maximum bubble size in Chart A", min_value=50, max_value=800, value=500)
+
