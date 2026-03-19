@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import random
 
 # Load dataset
-df = pd.read_csv("/Users/lavi/Desktop/ESADE/Year 3 (2025-2026)/Data visualisation/flights-airport.csv")
+df = pd.read_csv("flights-airport.csv")
 
 st.title("Flight Traffic Analysis (A/B Testing)")
 
